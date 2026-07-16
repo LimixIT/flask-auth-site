@@ -159,6 +159,6 @@ flask-auth-site/
 #### Профиль / Profile
 ![Профиль](https://github.com/LimixIT/flask-auth-site/blob/main/profile.png)
 #### Главная (авторизован) / Home (logged in)
-![Главная после входа](https://github.com/LimixIT/flask-auth-site/blob/main/index-logged.png)
+![Главная после входа](https://github.com/LimixIT/flask-auth-site/blob/main/index_logged.png)
 #### Данные в JSON / JSON data
 ![JSON](https://github.com/LimixIT/flask-auth-site/blob/main/json_data.png)
