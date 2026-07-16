@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section id = "main">
+        <h3><b>Профиль</b></h3>
+        <div id="profile">
+            <h2>Данные</h2>
+            <div class="data">
+                <p>Имя: {{ user }}</p>
+                <p>Возраст: {{ age }}</p>
+                <p>E-mail: {{ email }}</p>
+            </div>
+            <button onclick="window.location.href='/logout'">Выйти</button>
+        </div>
+    </section>
+{% endblock %}

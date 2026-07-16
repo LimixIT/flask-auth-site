@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section id = "main">
+        <h3><b>Регистрация</b></h3>
+        <div id = "register">
+            <form action="/register" method="POST">
+                <input type="text" name="username" placeholder="Имя">
+                <input type="number" name="age" placeholder="Возраст">
+                <input type="email" name="email" placeholder="Почта">
+                <input type="password" name="password" placeholder="Пароль">
+                <button id="reg" type="submit">Зарегистрироваться</button>
+            </form>
+            <form action="/login">
+                <p>Уже есть аккаунт?</p>
+                <button id="log" type="submit">Вход</button>
+            </form>
+        </div>
+    </section>
+{% endblock %}

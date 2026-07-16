@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section id="main">
+        <div id="index">
+            {% if session.email %}
+                <div id="prof" style="text-align: center;">
+                    <h3>Главная</h3>
+                    <h2>Ты в системе!</h2>
+                    <a href="/profile"><button>Профиль</button></a>
+                </div>
+            {% else %}
+                <h3><b>Добро пожаловать в LimCorp</b></h3>
+                <p style="text-align: center; font-size: 18px; padding: 40px 20px;">
+                    Зарегистрируйся, чтобы получить доступ ко всем функциям.
+                </p>
+                <div style="text-align: center;">
+                    <a href="/register" style="margin-right: 1%;"><button>Регистрация</button></a>
+                    <a href="/login" style="margin-left: 1%;"><button>Вход</button></a>
+                </div>
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}
