@@ -149,3 +149,16 @@ flask-auth-site/
 ```
 
 ### 📸 Скриншоты / 📸 Screenshots
+
+#### Главная страница (не авторизован) / Home page (not logged in)
+![Главная](https://github.com/LimixIT/flask-auth-site/blob/main/screenshots/index_not_logged.png)
+#### Регистрация / Registration
+![Регистрация](https://github.com/LimixIT/flask-auth-site/blob/main/screenshots/register_example.png)
+#### Вход / Login
+![Вход](https://github.com/LimixIT/flask-auth-site/blob/main/screenshots/login.png)
+#### Профиль / Profile
+![Профиль](https://github.com/LimixIT/flask-auth-site/blob/main/screenshots/profile.png)
+#### Главная (авторизован) / Home (logged in)
+![Главная после входа](https://github.com/LimixIT/flask-auth-site/blob/main/screenshots/index-logged.png)
+#### Данные в JSON / JSON data
+![JSON](https://github.com/LimixIT/flask-auth-site/blob/main/screenshots/json_data.png)
